@@ -1,6 +1,9 @@
 # MNIST-M
 MNIST-M is created by blending digits from the original set (MNIST) over patches randomly extracted from color photos from [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) (Arbelaez et al., 2011). MNIST-M is usually used as a target dataset in domain adaptation tasks (Ganin et al., 2016).
 
+<p align="center">
+  <img width="1200" src="sample.png">
+</p>
 
 ## MNIST-M for torchvision
 The `MNIST-M.zip` file contains images from MNIST-M dataset organized in subfolders, where each folder represents a class. This setup makes it ready to be imported using pytorch torchvision.
