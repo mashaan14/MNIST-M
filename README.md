@@ -16,13 +16,13 @@ import pandas as pd
 import shutil
 import os
 
-
 df = pd.read_csv('mnist_m_train_labels.txt', sep=" ", header=None)
 df.columns = ["file name", "subfolder"]
 
 cwd = os.getcwd().replace('\\', '/')
 
 for index, row in df.iterrows():
-    print(row['file name'], row['subfolder'])
-    shutil.move(os.path.join(cwd+'/',row['file name']), os.path.join(cwd+'/', str(row['subfolder'])))
+  print(row['file name'], row['subfolder'])
+  shutil.move(os.path.join(cwd+'/',row['file name']), 
+              os.path.join(cwd+'/', str(row['subfolder'])))
 ```
