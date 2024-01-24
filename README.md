@@ -12,9 +12,9 @@ The file `MNIST-M.zip` contains images from MNIST-M dataset organized in subfold
 You might have donwloaded MNIST-M, where images are not organized into subfolders. In this case, this code fragment could be useful. Run it twice, one for `mnist_m_train_labels.txt` and another run for `mnist_m_test_labels.txt`
 
 ```python
-import pandas as pd
 import shutil
 import os
+import pandas as pd
 
 df = pd.read_csv('mnist_m_train_labels.txt', sep=" ", header=None)
 df.columns = ["file name", "subfolder"]
