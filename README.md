@@ -18,7 +18,6 @@ import pandas as pd
 
 df = pd.read_csv('mnist_m_train_labels.txt', sep=" ", header=None)
 df.columns = ["file name", "subfolder"]
-
 cwd = os.getcwd().replace('\\', '/')
 
 for index, row in df.iterrows():
