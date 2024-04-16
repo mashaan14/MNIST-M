@@ -1,5 +1,5 @@
 ## Check out my ([YouTube Video](https://youtu.be/y1ZmMcMYjkY?feature=shared)) on MNIST attention maps
-[<img src="thumbnail.png" />](https://youtu.be/y1ZmMcMYjkY?feature=shared)
+[<img src="https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2023-11-29-VisionTransformer-MNIST.png" />](https://youtu.be/y1ZmMcMYjkY?feature=shared)
 
 # MNIST-M Dataset
 MNIST-M is created by blending digits from the original set (MNIST) over patches that are randomly extracted from color photos in [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) (Arbelaez et al., 2011). MNIST-M is usually used as a target dataset in domain adaptation tasks (Ganin et al., 2016).
