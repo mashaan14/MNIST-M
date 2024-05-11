@@ -1,4 +1,4 @@
-# Check out my ([YouTube Video](https://youtu.be/y1ZmMcMYjkY?feature=shared)) on MNIST attention maps
+# Check out my [YouTube Video](https://youtu.be/y1ZmMcMYjkY?feature=shared) on MNIST attention maps
 [<img src="https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2023-11-29-VisionTransformer-MNIST.png" />](https://youtu.be/y1ZmMcMYjkY?feature=shared)
 
 # MNIST-M Dataset
